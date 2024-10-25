@@ -1,0 +1,15 @@
+{
+  "name": "jobportal",
+  "version": "1.0.0",
+  "description": "A webportal to search job postings from open sources.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacky Chen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0"
+  }
+}
