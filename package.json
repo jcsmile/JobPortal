@@ -1,15 +1,27 @@
 {
-  "name": "jobportal",
+  "name": "api.bxcareers",
   "version": "1.0.0",
-  "description": "A webportal to search job postings from open sources.",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "start:dev": "cross-env NODE_ENV=development node server.js",
+    "start:prod": "cross-env NODE_ENV=production node server.js",
+    "start:test": "cross-env NODE_ENV=test node server.js"
   },
-  "author": "Jacky Chen",
+  "repository": {
+    "type": "git",
+    "url": "https://code.homepartners.com/hpa/api.bxcareers.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "mongodb": "^6.10.0"
+    "mongodb": "^6.10.0",
+    "winston": "^3.15.0"
   }
 }
